@@ -1,5 +1,5 @@
 ---
- - hosts: solace
+ - hosts: all
    connection: local
    gather_facts: false
    pre_tasks:
