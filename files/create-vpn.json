@@ -12,4 +12,18 @@
  "maxMsgSpoolUsage": 1000,
  "maxTransactedSessionCount": 100,
  "maxTransactionCount": 100
+ "replicationAckPropagationIntervalMsgCount": 20,
+ "replicationBridgeAuthenticationBasicClientUsername": "",
+ "replicationBridgeAuthenticationScheme": "client-certificate",
+ "replicationBridgeCompressedDataEnabled": false,
+ "replicationBridgeEgressFlowWindowSize": 255,
+ "replicationBridgeRetryDelay": 3,
+ "replicationBridgeTlsEnabled": false,
+ "replicationBridgeUnidirectionalClientProfileName": "#client-profile",
+ "replicationEnabled": false,
+ "replicationQueueMaxMsgSpoolUsage": 1500,
+ "replicationQueueRejectMsgToSenderOnDiscardEnabled": true,
+ "replicationRejectMsgWhenSyncIneligibleEnabled": false,
+ "replicationRole": "active",
+ "replicationTransactionMode": "async",
 }
