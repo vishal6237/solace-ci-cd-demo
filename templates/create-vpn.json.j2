@@ -11,5 +11,19 @@
  "maxIngressFlowCount": {{ vpn.maxIngressFlowCount }},
  "maxMsgSpoolUsage": {{ vpn.maxMsgSpoolUsage }},
  "maxTransactedSessionCount": {{ vpn.maxTransactedSessionCount }},
- "maxTransactionCount": {{ vpn.maxTransactionCount }}
+ "maxTransactionCount": {{ vpn.maxTransactionCount }},
+ "replicationAckPropagationIntervalMsgCount": 20,
+ "replicationBridgeAuthenticationBasicClientUsername": "TEST",
+ "replicationBridgeAuthenticationScheme": "client-certificate",
+ "replicationBridgeCompressedDataEnabled": false,
+ "replicationBridgeEgressFlowWindowSize": 255,
+ "replicationBridgeRetryDelay": 3,
+ "replicationBridgeTlsEnabled": true,
+ "replicationBridgeUnidirectionalClientProfileName": "#client-profile",
+ "replicationEnabled": true,
+ "replicationQueueMaxMsgSpoolUsage": 1500,
+ "replicationQueueRejectMsgToSenderOnDiscardEnabled": true,
+ "replicationRejectMsgWhenSyncIneligibleEnabled": false,
+ "replicationRole": "active",
+ "replicationTransactionMode": "async"
 }
