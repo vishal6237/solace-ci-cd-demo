@@ -13,7 +13,7 @@
  "maxTransactedSessionCount": 100,
  "maxTransactionCount": 100
  "replicationAckPropagationIntervalMsgCount": 20,
- "replicationBridgeAuthenticationBasicClientUsername": "",
+ "replicationBridgeAuthenticationBasicClientUsername": "TEST",
  "replicationBridgeAuthenticationScheme": "client-certificate",
  "replicationBridgeCompressedDataEnabled": false,
  "replicationBridgeEgressFlowWindowSize": 255,
